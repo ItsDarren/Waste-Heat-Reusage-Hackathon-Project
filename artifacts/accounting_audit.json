@@ -1,0 +1,30 @@
+{
+  "basis": "SYNTHETIC DEMONSTRATION",
+  "method": "Independent persisted-output recomputation; does not trust stored physics flags",
+  "executed_rows": 3024,
+  "site_window_controller_groups": 54,
+  "max_absolute_errors": {
+    "hp_identity_mwh": 4.440892098500626e-16,
+    "thermal_bus_mwh": 8.881784197001252e-16,
+    "source_capture_rejection_mwh": 7.940894836129087e-11,
+    "storage_dynamics_mwh": 4.440892098500626e-16,
+    "facility_components_mwh": 4.440892098500626e-16,
+    "heat_electric_components_mwh": 1.1102230246251565e-16,
+    "demand_service_mwh": 6.661338147750939e-16,
+    "shared_allocation_mwh": 0.0,
+    "thermal_revenue_usd": 0.0,
+    "customer_savings_usd": 0.0,
+    "margin_usd": 2.842170943040401e-14,
+    "operating_cost_usd": 6.750155989720952e-14,
+    "community_fund_usd": 0.0,
+    "identical_zero_initial_state_mwh": 0.0,
+    "state_continuity_mwh": 0.0,
+    "identical_zero_terminal_state_mwh": 0.0
+  },
+  "passed": true,
+  "hourly_artifact_sha256": "3783df3718c2a0e805703094b53c32b84df23f2292ddbd625b9256658b11a7d7",
+  "input_hashes": {
+    "forecast_models.pkl": "e487a1b7cb952fa78dba91fa62f7f3a059816cd53b814764d38f1ef505a607ac",
+    "synthetic_hourly.csv.gz": "81e1a6380d13f6e462991ffd842c29338548b2407da49b06678d4cc41bbdd23d"
+  }
+}

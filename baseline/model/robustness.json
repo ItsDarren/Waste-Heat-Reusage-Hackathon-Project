@@ -1,0 +1,197 @@
+{
+  "cases": [
+    {
+      "electricity_usd_mwh": 200,
+      "demand_multiplier": 0.8,
+      "construction_capex_multiplier": 0.8,
+      "npv_usd": 1348738.3168156215,
+      "positive_npv": true
+    },
+    {
+      "electricity_usd_mwh": 200,
+      "demand_multiplier": 0.8,
+      "construction_capex_multiplier": 1,
+      "npv_usd": -866083.5167114085,
+      "positive_npv": false
+    },
+    {
+      "electricity_usd_mwh": 200,
+      "demand_multiplier": 0.8,
+      "construction_capex_multiplier": 1.2,
+      "npv_usd": -3080905.350238438,
+      "positive_npv": false
+    },
+    {
+      "electricity_usd_mwh": 200,
+      "demand_multiplier": 1,
+      "construction_capex_multiplier": 0.8,
+      "npv_usd": 4158050.693874891,
+      "positive_npv": true
+    },
+    {
+      "electricity_usd_mwh": 200,
+      "demand_multiplier": 1,
+      "construction_capex_multiplier": 1,
+      "npv_usd": 1943228.8603478593,
+      "positive_npv": true
+    },
+    {
+      "electricity_usd_mwh": 200,
+      "demand_multiplier": 1,
+      "construction_capex_multiplier": 1.2,
+      "npv_usd": -271592.97317916737,
+      "positive_npv": false
+    },
+    {
+      "electricity_usd_mwh": 200,
+      "demand_multiplier": 1.2,
+      "construction_capex_multiplier": 0.8,
+      "npv_usd": 6962001.958718561,
+      "positive_npv": true
+    },
+    {
+      "electricity_usd_mwh": 200,
+      "demand_multiplier": 1.2,
+      "construction_capex_multiplier": 1,
+      "npv_usd": 4747180.12519153,
+      "positive_npv": true
+    },
+    {
+      "electricity_usd_mwh": 200,
+      "demand_multiplier": 1.2,
+      "construction_capex_multiplier": 1.2,
+      "npv_usd": 2532358.2916644993,
+      "positive_npv": true
+    },
+    {
+      "electricity_usd_mwh": 225,
+      "demand_multiplier": 0.8,
+      "construction_capex_multiplier": 0.8,
+      "npv_usd": 504429.7347084844,
+      "positive_npv": true
+    },
+    {
+      "electricity_usd_mwh": 225,
+      "demand_multiplier": 0.8,
+      "construction_capex_multiplier": 1,
+      "npv_usd": -1710392.0988185431,
+      "positive_npv": false
+    },
+    {
+      "electricity_usd_mwh": 225,
+      "demand_multiplier": 0.8,
+      "construction_capex_multiplier": 1.2,
+      "npv_usd": -3925213.9323455747,
+      "positive_npv": false
+    },
+    {
+      "electricity_usd_mwh": 225,
+      "demand_multiplier": 1,
+      "construction_capex_multiplier": 0.8,
+      "npv_usd": 3109872.585624494,
+      "positive_npv": true
+    },
+    {
+      "electricity_usd_mwh": 225,
+      "demand_multiplier": 1,
+      "construction_capex_multiplier": 1,
+      "npv_usd": 895050.7520974651,
+      "positive_npv": true
+    },
+    {
+      "electricity_usd_mwh": 225,
+      "demand_multiplier": 1,
+      "construction_capex_multiplier": 1.2,
+      "npv_usd": -1319771.0814295616,
+      "positive_npv": false
+    },
+    {
+      "electricity_usd_mwh": 225,
+      "demand_multiplier": 1.2,
+      "construction_capex_multiplier": 0.8,
+      "npv_usd": 5709307.278631611,
+      "positive_npv": true
+    },
+    {
+      "electricity_usd_mwh": 225,
+      "demand_multiplier": 1.2,
+      "construction_capex_multiplier": 1,
+      "npv_usd": 3494485.44510458,
+      "positive_npv": true
+    },
+    {
+      "electricity_usd_mwh": 225,
+      "demand_multiplier": 1.2,
+      "construction_capex_multiplier": 1.2,
+      "npv_usd": 1279663.611577551,
+      "positive_npv": true
+    },
+    {
+      "electricity_usd_mwh": 300,
+      "demand_multiplier": 0.8,
+      "construction_capex_multiplier": 0.8,
+      "npv_usd": -2028496.0116129203,
+      "positive_npv": false
+    },
+    {
+      "electricity_usd_mwh": 300,
+      "demand_multiplier": 0.8,
+      "construction_capex_multiplier": 1,
+      "npv_usd": -4243317.845139949,
+      "positive_npv": false
+    },
+    {
+      "electricity_usd_mwh": 300,
+      "demand_multiplier": 0.8,
+      "construction_capex_multiplier": 1.2,
+      "npv_usd": -6458139.678666982,
+      "positive_npv": false
+    },
+    {
+      "electricity_usd_mwh": 300,
+      "demand_multiplier": 1,
+      "construction_capex_multiplier": 0.8,
+      "npv_usd": -34661.73912668778,
+      "positive_npv": false
+    },
+    {
+      "electricity_usd_mwh": 300,
+      "demand_multiplier": 1,
+      "construction_capex_multiplier": 1,
+      "npv_usd": -2249483.572653713,
+      "positive_npv": false
+    },
+    {
+      "electricity_usd_mwh": 300,
+      "demand_multiplier": 1,
+      "construction_capex_multiplier": 1.2,
+      "npv_usd": -4464305.406180749,
+      "positive_npv": false
+    },
+    {
+      "electricity_usd_mwh": 300,
+      "demand_multiplier": 1.2,
+      "construction_capex_multiplier": 0.8,
+      "npv_usd": 1951223.238370765,
+      "positive_npv": true
+    },
+    {
+      "electricity_usd_mwh": 300,
+      "demand_multiplier": 1.2,
+      "construction_capex_multiplier": 1,
+      "npv_usd": -263598.5951562655,
+      "positive_npv": false
+    },
+    {
+      "electricity_usd_mwh": 300,
+      "demand_multiplier": 1.2,
+      "construction_capex_multiplier": 1.2,
+      "npv_usd": -2478420.4286832935,
+      "positive_npv": false
+    }
+  ],
+  "positive_npv_count": 13,
+  "case_count": 27,
+  "positive_fraction": 0.48148148148148145,
+  "interpretation": "Fraction of explicitly assumed cases, NOT a probability, confidence interval, measurement accuracy or calibrated forecast. Equal case weights are arbitrary. Construction CAPEX/fixed O&M scale; year15 heat-pump refurbishment cost retains base value."
+}

@@ -1,0 +1,98 @@
+HEAT COMMONS - THREE-MINUTE TEAM SCRIPT
+Standalone presentation | Nine cues | One Next per cue
+
+BEFORE STARTING
+1. Open PRESENT.html in Chrome or Edge. Click Begin presentation. Start your stopwatch.
+2. Darren clicks Next once when instructed, or presses Right Arrow once. Previous or Left Arrow goes back. Do not click the model.
+3. Each person reads their own page. Do not say the directions aloud. On a call, share only the presentation window and unmute for your turn.
+4. This talk is three minutes by itself. The separate demo is a separate file. Rehearse once with the times below.
+
+Read only the spoken paragraphs. Directions stay silent.
+
+CUE 1 | Darren | 0:00 - 0:20
+Heat Commons: software for heat-reuse decisions
+
+We are Darren, Nandan, Jason, and Brian. Heat Commons is our response to the Grundfos challenge. Our working software helps heat-network planners decide where data-center waste heat could serve nearby buildings. This prototype uses synthetic data and shows the assumptions behind each decision.
+
+[Darren: click Next once.]
+
+CUE 2 | Darren | 0:20 - 0:40
+Two challenge sites, one urban focus
+
+We compare the two challenge sites: 111 Eighth Avenue in New York City and the proposed Lake Hawkeye site in Lansing. We focus on New York, with housing, a commercial anchor, and a community facility. These are candidate users, not signed customers. Nandan.
+
+[Darren: click Next once.]
+
+CUE 3 | Nandan | 0:40 - 1:05
+Capture, upgrade, deliver
+
+An isolated heat exchanger captures data-center heat, around thirty degrees Celsius in our New York scenario. A heat pump supplies a sixty-five-degree network. Pipes reach building interfaces. We assume two-point-five megawatts of recoverable thermal heat. Heat-pump output combines recovered heat and compressor electricity, before network losses.
+
+[Darren: click Next once.]
+
+CUE 4 | Nandan | 1:05 - 1:15
+Summer demand and storage
+
+Summer reduces demand, leaving recoverable heat unused. Storage shifts heat between hours, not seasons. It cannot solve the summer-winter mismatch.
+
+[Darren: click Next once.]
+
+CUE 5 | Nandan | 1:15 - 1:25
+Source-export outage and backup
+
+An export outage stops captured heat. Backup and unmet demand stay visible. Cooling stays independent in our design. Jason.
+
+[Darren: click Next once.]
+
+CUE 6 | Jason | 1:25 - 1:50
+Forecast, allocate, replan
+
+Forecasts and decisions have different jobs. Models forecast the next twenty-four hours of loads and heat demand, including uncertainty. An optimizer allocates heat within temperature, equipment, storage, and customer limits. A community-service requirement gets priority when physically possible. The controller executes one hour, then replans with updated information.
+
+[Darren: click Next once.]
+
+CUE 7 | Jason | 1:50 - 2:15
+Check confidence and unfavorable results
+
+On synthetic tests, facility forecast error improves about twenty-two percent in New York and twenty-one in Lansing against simple baselines. We check ninety-percent prediction-band coverage. But controller margins fall about two-point-four and two-point-three percent against rules. Three thousand twenty-four executed controller-hours passed physical checks. Brian.
+
+[Darren: click Next once.]
+
+CUE 8 | Brian | 2:15 - 2:40
+The annual site screen is conditional
+
+Our separate annual screen favors New York. Capital is about nine-point-one million dollars, versus eleven-point-seven million in Lansing. Net present value is positive point-nine million versus negative twelve-point-five million, over twenty-five years at seven percent. Estimated annual net operational carbon savings are higher in New York. These results depend on assumptions.
+
+[Darren: click Next once.]
+
+CUE 9 | Brian | 2:40 - 3:00
+Ownership, community value, and next evidence
+
+A network company would own the system and carry investment risk. Tenant savings need enforceable agreements. The model includes a community fund. Next, validate source measurements, customer demand, routes, tariffs, and contracts. Heat Commons makes heat-reuse trade-offs visible before anyone builds. Thank you.
+
+[Stop after Thank you. Leave the final scene visible.]
+
+REFERENCE ONLY - NOT PART OF THE THREE-MINUTE TALK
+
+30-SECOND EMERGENCY ENDING - BRIAN
+Heat Commons helps planners match data-center waste heat to community needs. Our synthetic prototype compares two sites, shows physical limits, and checks decision confidence. Better forecasts did not improve tested operating margin. The annual model conditionally favors New York, but real heat measurements, customers, routes, tariffs, and agreements must come next. Thank you.
+
+SAFE JUDGE ANSWERS
+
+Is this real site data or a live installation?
+No. This is a working software prototype using synthetic data. The presentation illustrates saved model results. Customers and routes are candidates. We do not claim site measurements, signed customers, an installed network, or live equipment control.
+
+Did machine learning improve profits?
+No. Forecast-controlled operating margin was about 2.43% lower in New York and 2.31% lower in Lansing than the rule controller, over 504 test hours per site. Better forecasting alone did not improve this decision result.
+
+What do the confidence numbers mean?
+Facility mean absolute error was 22.1% lower in New York and 20.6% lower in Lansing than the best simple test baseline. Nominal 90% facility intervals covered about 92.3% and 90.6% of synthetic holdout values. Coverage is measured, not guaranteed.
+
+What do the physical checks prove?
+Across three controllers, two sites, and 504 hours per site, 3,024 executed controller-hours had zero checked physical constraint violations. These are simulation checks, not equipment certification. The assumed 2.5 MW is source thermal recovery; heat-pump output adds compressor electricity.
+
+Why choose New York, and are the savings guaranteed?
+The separate annual model assumes a compact urban network and larger heat demand. Useful heat is about 12.5 versus 5.24 GWh/year; capital is $9.1M versus $11.7M. Net present values are +$0.90M and -$12.52M over 25 years at 7%. These depend on unvalidated assumptions.
+
+Who owns it, and how does the community benefit?
+A proposed network company owns the network and carries investment risk. The data center retains cooling responsibility. New York models about $25,000/year for a community fund. Tenant savings require enforceable pass-through. Estimated net operational emissions avoided are about 2,127 versus 841 tonnes/year. These are conditional annual estimates.

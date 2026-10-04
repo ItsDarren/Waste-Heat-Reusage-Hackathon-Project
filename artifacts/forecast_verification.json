@@ -1,0 +1,13 @@
+{
+  "future_mutation_invariance": true,
+  "feature_sha256": "6e842d070236ed5780b73a114cc6ae7950140cb457bee291e287f6d457645954",
+  "leap_year_hours": 8784,
+  "dst_spring_hours": 23,
+  "dst_fall_hours": 25,
+  "missing_sensor_failclosed": true,
+  "nonfinite_estimator_output_failclosed": true,
+  "electrical_reconciliation_and_nonnegative_intervals": true,
+  "thermal_source_forecast_limits": true,
+  "csv_ingestion_roundtrip_rows": 480,
+  "naive_timestamp_rejected": true
+}

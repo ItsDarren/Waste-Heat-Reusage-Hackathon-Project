@@ -1,0 +1,139 @@
+{
+  "basis": "SYNTHETIC DEMONSTRATION; software verification, not field certification",
+  "verified_utc": "2026-10-04T00:34:13.393210+00:00",
+  "python_version": "3.12.14",
+  "checks": {
+    "saved_model_and_dataset_hashes_match": true,
+    "recorded_causal_feature_and_stress_audits_pass": true,
+    "fresh_saved_model_inference_and_optimization_both_sites": true,
+    "independent_hourly_accounting_rows": 3024,
+    "common_zero_storage_endpoints": true,
+    "site_window_controller_groups": 54,
+    "annual_model_reproduction_both_sites": true,
+    "selected_video_and_presentation_byte_identical": true
+  },
+  "input_hashes": {
+    "model_sha256": "e487a1b7cb952fa78dba91fa62f7f3a059816cd53b814764d38f1ef505a607ac",
+    "dataset_sha256": "81e1a6380d13f6e462991ffd842c29338548b2407da49b06678d4cc41bbdd23d"
+  },
+  "fresh_process_inference_and_dispatch": [
+    {
+      "site_id": "U",
+      "forecast_hours": 24,
+      "optimized_hours": 24,
+      "status": "optimized",
+      "physical_violations": 0,
+      "next_hour_it_mw": 3.992846965789795
+    },
+    {
+      "site_id": "R",
+      "forecast_hours": 24,
+      "optimized_hours": 24,
+      "status": "optimized",
+      "physical_violations": 0,
+      "next_hour_it_mw": 4.409803867340088
+    }
+  ],
+  "independent_maximum_residuals": {
+    "hp_identity_mwh": 4.440892098500626e-16,
+    "system_balance_mwh": 8.881784197001252e-16,
+    "facility_reconciliation_mwh": 4.440892098500626e-16,
+    "demand_balance_mwh": 6.661338147750939e-16,
+    "operating_margin_usd": 2.842170943040401e-14,
+    "cohort_revenue_usd": 0.0
+  },
+  "baseline_reproduction": [
+    {
+      "site_id": "U",
+      "metric": "delivered_mwh",
+      "stored_value": 12501.11398992139,
+      "recomputed_value": 12501.11398890827,
+      "difference": -1.0131207091035321e-06,
+      "cross_runtime_tolerance": 0.00012501113989921392
+    },
+    {
+      "site_id": "U",
+      "metric": "electricity_mwh",
+      "stored_value": 3597.7882243338086,
+      "recomputed_value": 3597.7882240259505,
+      "difference": -3.078580448345747e-07,
+      "cross_runtime_tolerance": 3.597788224333809e-05
+    },
+    {
+      "site_id": "U",
+      "metric": "revenue_usd",
+      "stored_value": 1949764.7202404167,
+      "recomputed_value": 1949764.720081242,
+      "difference": -0.00015917466953396797,
+      "cross_runtime_tolerance": 0.019497647202404166
+    },
+    {
+      "site_id": "U",
+      "metric": "capex_usd",
+      "stored_value": 9066600.0,
+      "recomputed_value": 9066600.0,
+      "difference": 0.0,
+      "cross_runtime_tolerance": 0.090666
+    },
+    {
+      "site_id": "U",
+      "metric": "npv_usd",
+      "stored_value": 895050.7520974651,
+      "recomputed_value": 895050.7510899912,
+      "difference": -0.0010074739111587405,
+      "cross_runtime_tolerance": 0.00895050752097465
+    },
+    {
+      "site_id": "R",
+      "metric": "delivered_mwh",
+      "stored_value": 5239.090783759583,
+      "recomputed_value": 5239.090784078178,
+      "difference": 3.18595084536355e-07,
+      "cross_runtime_tolerance": 5.2390907837595834e-05
+    },
+    {
+      "site_id": "R",
+      "metric": "electricity_mwh",
+      "stored_value": 1325.4254970299396,
+      "recomputed_value": 1325.4254970938907,
+      "difference": 6.395111995516345e-08,
+      "cross_runtime_tolerance": 1.3254254970299396e-05
+    },
+    {
+      "site_id": "R",
+      "metric": "revenue_usd",
+      "stored_value": 445322.7166195621,
+      "recomputed_value": 445322.7166466428,
+      "difference": 2.7080648578703403e-05,
+      "cross_runtime_tolerance": 0.004453227166195621
+    },
+    {
+      "site_id": "R",
+      "metric": "capex_usd",
+      "stored_value": 11709300.0,
+      "recomputed_value": 11709300.0,
+      "difference": 0.0,
+      "cross_runtime_tolerance": 0.117093
+    },
+    {
+      "site_id": "R",
+      "metric": "npv_usd",
+      "stored_value": -12521595.862091297,
+      "recomputed_value": -12521595.861908376,
+      "difference": 0.00018292106688022614,
+      "cross_runtime_tolerance": 0.12521595862091298
+    }
+  ],
+  "selected_assets": {
+    "presentation/PRESENT.html": {
+      "sha256": "a2c86986ca1f6ecfb07848bfbeef3894cff0b1dee27da82a1a31393952d2407a",
+      "bytes": 2386990
+    },
+    "media/Demo Video.mp4": {
+      "sha256": "e48ac09d5de7f650055967f04993e7e6a4b09a941a989762086bf478c029f0ac",
+      "bytes": 11062832
+    }
+  },
+  "scope": "Fresh saved-model inference and optimization for both sites, independent persisted-flow accounting, annual-model recomputation, and asset hashes. Recorded causal/stress evidence is checked; browser interaction and field validation are separate.",
+  "verdict": "PASS within declared simulation and numerical boundaries; field validation remains OPEN"
+}

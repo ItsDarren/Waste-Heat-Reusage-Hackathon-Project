@@ -1,0 +1,30 @@
+{
+  "basis": "SYNTHETIC DEMONSTRATION",
+  "measured_telemetry": false,
+  "generator_seed": 73129,
+  "independent_site_year_seeds": {
+    "U-2023": 73129,
+    "U-2024": 74138,
+    "U-2025": 75147,
+    "R-2023": 173129,
+    "R-2024": 174138,
+    "R-2025": 175147
+  },
+  "rows": 52608,
+  "utc_start": "2023-01-01 00:00:00+00:00",
+  "utc_end": "2025-12-31 23:00:00+00:00",
+  "hours_by_site_year": {
+    "R-2023": 8760,
+    "R-2024": 8784,
+    "R-2025": 8760,
+    "U-2023": 8760,
+    "U-2024": 8784,
+    "U-2025": 8760
+  },
+  "dataset_sha256": "81e1a6380d13f6e462991ffd842c29338548b2407da49b06678d4cc41bbdd23d",
+  "electrical_assumptions": "Nominal IT scale 4.9 MW NYC / 5.3 MW Lansing, synthetic utilization; temperature-dependent cooling and 0.18 MW base other facility power. No site electrical measurements.",
+  "thermal_assumption": "Original 2.5 MW interface tranche retained, independently capped by IT heat fraction, measured/simulated flow*cp*deltaT, availability and source temperature.",
+  "realized_ground_truth": "Power columns are synthetic latent realized truth even during sensor-quality incidents. Forecaster hides bad-quality target observations; evaluation may use latent truth.",
+  "heldout_regimes": "2025 only: Jan14-18 cold spell; Feb13 stale sensors; Apr18 low source temperature; Jul16-19 price spike; Sep10-12 connection loss; Oct12-14 unannounced outage.",
+  "weather_issue_method": "At issue time climate + decay of observed current weather anomaly + independently seeded issue/horizon forecast error. No realized future weather is read."
+}
